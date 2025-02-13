@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <style>
+        /* Add Gradient Background */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom right, #16f5ff, #6fff5f); /* Gradient from top-left to bottom-right */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Style for the menu */
+        select {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border: none;
+            background: #258a1d;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Style for text */
+        h1 {
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* Optional: Styling for the image */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Additional padding for paragraphs */
+        p {
+            text-align: center;
+            padding: 0 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Menu dropdown -->
+<label for="menu">Menu:</label>
+<select id="menu" onchange="location = this.value;">
+    <option value="index.html">Select</option>
+    <option value="index.html">Home</option>
+    <option value="about.html">About</option>
+    <option value="details.html">Details</option>
+</select>
+
+
+<h1>About</h1>
+
+<div>
+    <img src="https://ca-times.brightspotcdn.com/dims4/default/4f2445e/2147483647/strip/true/crop/7023x4681+0+26/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fdc%2Fe2%2Ff100df5e493491268703f6ccd77e%2F1423617-me-0318-california-rattlesnakes-cmh-03.jpg"
+         alt="Black Mamba image" width="400" height="250">
+</div>
+
+<p>This website goes to a cause for rescuing snakes
+    from people who want to do very terrible things to them such as eat them, defang them, and take their skin and use it
+    for fashion. We also help people with their snake problems if they happen to find a snake infestation in any
+    location.</p>
+
+<p>Please contact us if you see a
